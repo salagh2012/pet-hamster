@@ -1,7 +1,7 @@
-input.onGesture(Gesture.LogoUp, function on_gesture_logo_up() {
+input.onGesture(Gesture.LogoUp, function () {
     music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.InBackground)
 })
-input.onLogoEvent(TouchButtonEvent.Pressed, function on_logo_pressed() {
-    
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+	
 })
-basic.showIcon(IconNames.Tortoise)
+basic.showIcon(IconNames.Happy)
